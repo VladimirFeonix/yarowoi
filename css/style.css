@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Crimson', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/yarowoi/img/back.jpeg);
+}
+
+ul, li {
+    list-style: none;
+}  
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    margin: 28px 1095px 28px 30px;
+    padding: 8.5px 0 60px 8.5px;
+    padding: 0 auto;
+    width: 795px;
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__logo {
+    padding-right: 60px;
+    width: 40px;
+    height: 40px;
+}
+
+.header__menu {
+    margin: 36.5px 36px 1850px 36.5px;
+
+}
+
+.header__list-home {
+    
+}
+
+.header__list-link {
+    font-family: font-family;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.6);
+    padding-right: 40px;
+}
+
+.header__list-linkhome {
+    font-family: font-family;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    padding-right: 40px;
+}
+
+.header__list-title {
+}
+
+
+.welcome__block {
+
+}
+
+hr {
+    height: 2px;
+    margin: 0;
+    border: 0;
+    background: linear-gradient(to right, #027abe 0%, transparent 100%);
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 109%;
+    letter-spacing: -0.03em;
+    background: linear-gradient(223deg, #ffffff 0%, #ffffff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 200px;
+}
+
+.name__statics {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.cta-button {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 300px;
+    padding: 10px 20px;
+    border-radius: 23px;
+    background: linear-gradient(210deg, #722323 0%, #c63535 100%);
+    font-size: 19px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Начало пробного блока подробностей */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #373755;
+    opacity: 0.8;
+}
+
+.info {
+    color: rgb(197, 187, 187);
+}
+
+.copy {
+    color: rgb(197, 187, 187);
+}
